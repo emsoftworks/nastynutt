@@ -26,7 +26,7 @@ local gui =
 }
 
 gui.blazedLoader.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-gui.blazedLoader.Name = "nastynutt loader"
+gui.blazedLoader.Name = "nanohook"
 gui.blazedLoader.Parent = game:GetService("CoreGui")
 
 gui.Frame.BorderSizePixel = 0
@@ -50,7 +50,7 @@ gui.TextLabel.Size = UDim2.new(0, 147, 0, 50)
 gui.TextLabel.Name = "TextLabel"
 gui.TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 gui.TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-gui.TextLabel.Text = "nastynut"
+gui.TextLabel.Text = "nanohook"
 gui.TextLabel.BackgroundTransparency = 1
 gui.TextLabel.Parent = gui.Frame
 
@@ -99,7 +99,7 @@ gui.TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
 gui.TextLabel_2.Name = "TextLabel"
 gui.TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 gui.TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-gui.TextLabel_2.Text = "Boost FPS"
+gui.TextLabel_2.Text = "fuck niggers in butt"
 gui.TextLabel_2.BackgroundTransparency = 1
 gui.TextLabel_2.Parent = gui.Frame
 
@@ -219,7 +219,7 @@ gui.blazedLoader:Destroy()
     function Notifications(NotiINFO)
         if getgenv().NotiMode == "Roblox" then
             game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "nastynut", -- Required
+                Title = "nanohook", -- Required
                 Text = NotiINFO, -- Required
                 Icon = "rbxassetid://15115954522" -- Optional
             })
@@ -231,7 +231,7 @@ gui.blazedLoader:Destroy()
             if getgenv().NotiMode == "Akali" then
                 ANotify({
                     Description = NotiINFO;
-                    Title = "nastynut";
+                    Title = "nanohook";
                     Duration = 1;
                     });
                 else
@@ -458,7 +458,7 @@ gui.blazedLoader:Destroy()
     local SaveManager = loadstring(game:HttpGet('https://pastebin.com/raw/rNY1ZdQT'))()
     
     local Window = Library:CreateWindow({
-        Title = 'nastynutt | developer build | five duels',
+        Title = 'nanohook.cc | nigger build | five duels',
         Center = true, 
         AutoShow = true,
         Size = UDim2.fromOffset(550, 560),
@@ -802,7 +802,7 @@ gui.blazedLoader:Destroy()
             FrameTimer = tick();
             FrameCounter = 0;
         end;
-        Library:SetWatermark(('nastynutt | %s fps | %s ms'):format(
+        Library:SetWatermark(('nanohook | %s fps | %s ms'):format(
             math.floor(FPS),
             math.floor(game:GetService('Stats').Network.ServerStatsItem['Data Ping']:GetValue())
         ));
@@ -2596,7 +2596,7 @@ gui.blazedLoader:Destroy()
     local SaveManager = loadstring(game:HttpGet('https://pastebin.com/raw/rNY1ZdQT'))()
     
     local Window = Library:CreateWindow({
-        Title = 'nastynut | buyer build',
+        Title = 'nanohook | buyer build',
         Center = true, 
         AutoShow = true,
         Size = UDim2.fromOffset(550, 560),
@@ -4004,7 +4004,7 @@ end)
             FrameTimer = tick();
             FrameCounter = 0;
         end;
-        Library:SetWatermark(('nastynut | %s fps | %s ms'):format(
+        Library:SetWatermark(('nanohook | %s fps | %s ms'):format(
             math.floor(FPS),
             math.floor(game:GetService('Stats').Network.ServerStatsItem['Data Ping']:GetValue())
         ));
